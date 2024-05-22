@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/createtasks"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Create Project" />
+        <item
+            android:id="@+id/asigntasks"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Asign Tasks" />
+        <item
+            android:id="@+id/tasksstatus"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Tasks Status" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Profile" />
+        <item
+            android:id="@+id/stats"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Logout" />
+
+
+
+    </group>
+
+
+
+</menu>

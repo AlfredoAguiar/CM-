@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFE"
+    android:backgroundTint="#F8FAFE">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="646dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="588dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="76dp"
+        android:backgroundTint="#FFCC3E"
+        android:fontFamily="@font/poppins"
+        android:text="LOGIN"
+        android:textColor="#030047"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="91dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="354dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#030047"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="284dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="390dp"
+        android:background="#F8FAFE"
+        android:backgroundTint="#F8FAFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="245dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="372dp"
+        android:fontFamily="More Fonts..."
+        android:gravity="center"
+        android:text="Welcome Back"
+        android:textColor="#030047"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="@font/roboto_black"
+        tools:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FFCC3E"
+        android:text="<"
+        android:textColor="#030047"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="281dp"
+        android:background="@drawable/edit_text"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="222dp"
+        android:background="@drawable/edit_text"
+        android:fontFamily="@font/poppins"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="301dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
